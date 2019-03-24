@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 const mongoose = require('mongoose')
+const path = require('path');
 require('dotenv').config();
 
 // DB setup
@@ -23,7 +24,7 @@ mongoose.connection
 require('./routes/usersRoutes')(app);
 
 app.get('/', function (req, res) {
-    res.status(200).send('go to /users');
+    res.status(200).sendFile(path.join(__dirname+'/index.html'));
 })
 
 app.listen(PORT, () => console.log(`Interview_Users API listening on port ${PORT}!`))
