@@ -18,12 +18,12 @@ npm run dev # to start the server with nodemon
 ```
 
 ## Notes
-Go to localhost/users to fetch all users
+Go to /users to fetch all users
 
 Available query strings: 
 ```
 * ?page=      #Must be a number, default is 1
 * ?limit=     #Must be a number, default is 10
 * ?search=    #Must be a string, search by typing email address or name
-* ?sort=      #Must be a string, sort by 'email' or 'name'
+* ?sort=      #Must be a string, sort by 'email', 'name' or 'email,name'
 ```
