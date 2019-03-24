@@ -24,6 +24,6 @@ Available query strings:
 ```
 * ?page=      #default is 1
 * ?limit=     #default is 10
-* ?search=    #search email or name
+* ?search=    #search by typing email address or name
 * ?sort=      #sort by 'email' or 'name'
 ```
