@@ -1,6 +1,7 @@
 const Users = require('../models/Users');
 const faker = require('faker')
 const mongoose = require('mongoose')
+require('dotenv').config();
 
 // Create new 20 new users and exit
 
