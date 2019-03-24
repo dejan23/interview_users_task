@@ -12,28 +12,43 @@
     <table>
         <tr>
             <th>query</th>
-            <th>default</th>
+            <th>info</th>
         </tr>
         <tr>
             <td>/users?page=</td>
-            <td>1</td>
+            <td>Must be a number, default is 1</td>
         </tr>
         <tr>
             <td>/users?limit=</td>
-            <td>10</td>
+            <td>Must be a number, default is 10</td>
         </tr>
         <tr>
             <td>/users?search=</td>
-            <td>search by typing email address or name</td>
+            <td>Must be a string, search by typing email address or name</td>
         </tr>
         <tr>
             <td>/users?sort=</td>
-            <td>sort by 'email' or 'name'</td>
+            <td>Must be a string, sort by 'email' or 'name'</td>
         </tr>
     </table>
     <p>
         <a href="https://github.com/dejan23/interview_users_task">https://github.com/dejan23/interview_users_task</a>
     </p>
 </body>
-
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
 </html>

@@ -22,8 +22,8 @@ Go to localhost/users to fetch all users
 
 Available query strings: 
 ```
-* ?page=      #default is 1
-* ?limit=     #default is 10
-* ?search=    #search by typing email address or name
-* ?sort=      #sort by 'email' or 'name'
+* ?page=      #Must be a number, default is 1
+* ?limit=     #Must be a number, default is 10
+* ?search=    #Must be a string, search by typing email address or name
+* ?sort=      #Must be a string, sort by 'email' or 'name'
 ```
