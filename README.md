@@ -12,9 +12,9 @@ npm i
 ## Usage
 
 ```nodejs
-npm run seeder #to added 20 new users to database
-npm run start # to start the server
-npm run dev # to start the server with nodemon 
+npm run seeder #to add 20 new users to database
+npm run start  #to start the server
+npm run dev    #to start the server with nodemon 
 ```
 
 ## Notes

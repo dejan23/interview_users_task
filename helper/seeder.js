@@ -3,7 +3,7 @@ const faker = require('faker')
 const mongoose = require('mongoose')
 require('dotenv').config();
 
-// Create new 20 new users and exit
+// Create 20 new users and exit
 
 createUsers = async () => {
     for (i = 0; i < 20; i++) {
